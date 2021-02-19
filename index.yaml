@@ -3,12 +3,12 @@ entries:
   hydra-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-02-19T15:28:04.895378829Z"
+    created: "2021-02-19T15:30:22.614975436Z"
     description: A Generic Helm chart for Hydra microservices
-    digest: 88d02f3d779dd85d5c4cb078ac102ae92e453d00a900e88935e9838164a6be69
+    digest: 2a80d2e3163d19ff5a74ca76f0f843b46940a0338139dede00a53f42f650f00c
     name: hydra-chart
     type: application
     urls:
     - hydra-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-19T15:28:04.893652654Z"
+generated: "2021-02-19T15:30:22.613084554Z"
