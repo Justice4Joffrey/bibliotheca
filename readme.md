@@ -1,4 +1,4 @@
-# Bibliotecha
+# Bibliotheca
 
 A collection of helm charts to be hosted on GitHub.
 
