@@ -3,7 +3,7 @@ entries:
   hydra-chart:
   - apiVersion: v2
     appVersion: 1.26.0
-    created: "2023-03-20T21:12:43.456971884Z"
+    created: "2023-04-15T21:20:36.03881264+01:00"
     description: A Generic Helm chart for Hydra microservices
     digest: 73e22661e4434ded197b7885ac780d4d87a3aee53e8c301f3ee97b27dd12fae4
     name: hydra-chart
@@ -13,7 +13,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T21:12:43.456289427Z"
+    created: "2023-04-15T21:20:36.037851493+01:00"
     description: A Generic Helm chart for Hydra microservices
     digest: 52de1f6703b064c387e086414ebbc7fd1a74ca77271150953d41205c55615862
     name: hydra-chart
@@ -21,4 +21,40 @@ entries:
     urls:
     - hydra-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-20T21:12:43.455292186Z"
+  traefik:
+  - annotations:
+      artifacthub.io/changes: |
+        - "⬆️ Upgrade traefik Docker tag to v2.9.10"
+        - "feat: add additional labels to tlsoption"
+    apiVersion: v2
+    appVersion: v2.9.10
+    created: "2023-04-15T21:20:36.040591835+01:00"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 16cf8e470ebd5b3a3e7de2fff1bc1e398adccb23b68ebfe2c18366f5dcdff94c
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ldez@traefik.io
+      name: ldez
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: charlie.haley@traefik.io
+      name: charlie-haley
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    type: application
+    urls:
+    - traefik-22.1.0.tgz
+    version: 22.1.0
+generated: "2023-04-15T21:20:36.036792864+01:00"
